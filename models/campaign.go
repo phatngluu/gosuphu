@@ -3,7 +3,7 @@ package models
 type Campaign struct {
 	Model
 	ID           uint   `json:"id"`
-	CampaignID   string `json:"campaign_id"`
+	CampaignCode string `json:"campaign_code"`
 	CampaignName string `json:"campaign_name"`
 }
 

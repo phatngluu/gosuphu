@@ -4,7 +4,7 @@ type CampaignRarity struct {
 	Model
 	CampaignID uint     `json:"campaign_id"`
 	RarityID   uint     `json:"rarity_id"`
-	Campaign   Campaign `json:"campaign"`
+	Campaign   Campaign `json:"campaign"    gorm:"foreignKey: "`
 	Rarity     Rarity   `json:"rarity"`
 }
 

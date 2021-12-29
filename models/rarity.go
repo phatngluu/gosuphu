@@ -3,7 +3,6 @@ package models
 type Rarity struct {
 	Model
 	ID          uint   `json:"id"`
-	RarityID    string `json:"rarity_id"`
 	RarityLevel string `json:"rarity_level"`
 }
 
